@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="header">
+      <a href="#">
+        <img src="img/logo.png" class="logo" alt="" />
+      </a>
+      <div>
+        <ul id="navbar">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="shop.html">Shop</a>
+          </li>
+          <li>
+            <a href="blog.html">Blog</a>
+          </li>
+          <li>
+            <a class="active" href="about.html">About</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a id="lg-bag" href="cart.html"
+              ><ion-icon name="cart-outline"></ion-icon
+            ></a>
+          </li>
+          <a id="close" href="#"
+            ><ion-icon name="close-circle-outline"></ion-icon
+          ></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><ion-icon name="cart-outline"></ion-icon></a>
+        <ion-icon id="bar" name="menu-outline"></ion-icon>
+      </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+      <h2>#knowUs</h2>
+      <p>Lorem ipsum dolor sit amet consectetur</p>
+    </section>
+
+    <section id="about-head" class="section-p1">
+      <img src="img/about/a6.jpg" alt="" />
+      <div>
+        <h2>Who We Are?</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse placeat
+          expedita dolore ipsam tenetur porro architecto unde excepturi commodi
+          reprehenderit? Iure, quo eligendi unde magnam voluptatem quibusdam
+          commodi adipisci eaque!
+        </p>
+        <abbr title="">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet libero
+          suscipit officia iure soluta necessitatibus
+        </abbr>
+        <br /><br />
+        <marquee
+          bgcolor="#ccc"
+          loop="-1"
+          scrollamount="5"
+          width="100%"
+          behavior=""
+          direction=""
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+          similique laborum, assumenda sit ab nihil doloremque dolores dicta
+          fuga hic
+        </marquee>
+      </div>
+    </section>
+
+    <section id="about-app" class="section-p1">
+      <h1>Download Our <a href="#">App</a></h1>
+      <div class="video">
+        <video autoplay muted loop src="img/about/1.mp4"></video>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img src="img/logo.png" alt="" />
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> Kutina, Croatia</p>
+        <p><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 6789</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="logo-youtube"></ion-icon>
+            <ion-icon name="logo-pinterest"></ion-icon>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="" />
+          <img src="img/pay/play.jpg" alt="" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="" />
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
